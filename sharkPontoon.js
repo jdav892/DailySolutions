@@ -12,3 +12,11 @@ function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
         return "Alive!"
     }
 }
+
+
+//function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+//    if(dolphin){
+//        sharkSpeed /= 2;
+//    }
+//    return ponToonDistance/youSpeed < sharkDistance/sharkSpeed ? "Alive!" : "Shark Bait!";
+//}
