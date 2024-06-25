@@ -8,3 +8,6 @@ function contamination(text, char){
     }
     return mutString
 }
+
+//function contamination(text, char){
+//return char.repeat(text.length)}
