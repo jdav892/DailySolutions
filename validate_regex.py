@@ -7,5 +7,5 @@ def validate_code(code):
         return False
     
     
-# def validcate_code(code):
+# def validate_code(code):
 #   return str(code).startswith(('1', '2', '3'))
