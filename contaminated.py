@@ -5,4 +5,7 @@ def contamination(text, char):
     for i in text:
         mut_string += char
     return mut_string
-    
+   
+   
+#def contamination(text, char):
+#return char*len(text) 
