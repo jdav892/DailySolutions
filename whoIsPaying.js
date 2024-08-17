@@ -6,3 +6,8 @@ function whoIsPaying(name){
     }
     return nameArr
 }
+
+//Another simple solution would've been this
+//function whoIsPaying(name){
+//    return (name.length > 2) ? ([name, name.substr(0, 2)]) : [name];
+//}
