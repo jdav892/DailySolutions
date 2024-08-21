@@ -6,3 +6,4 @@ function pointsPer48(ppg, mpg){
     return Math.round(actualPpg * 10) / 10
 }
 
+//return +(ppg / mpg * 48).toFixed(1) || 0
