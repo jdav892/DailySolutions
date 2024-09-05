@@ -6,3 +6,7 @@ def domain_name(url):
     return None
 
     
+#def domain_split(url):
+#    url = re.sub(r"(https?://)?(www\d?\.)?", "", url)
+#    domain = url.split('.')[0]
+#    return domain
