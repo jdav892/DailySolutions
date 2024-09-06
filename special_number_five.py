@@ -6,3 +6,4 @@ def special_number(number):
             return "NOT!!"
     return "Special!!"
 
+#return "Special!!" if max(str(n)) <= "5" else "NOT!!"
