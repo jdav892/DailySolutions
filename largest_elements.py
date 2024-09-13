@@ -1,2 +1,5 @@
 def largest(n, xs):
-    return sorted(xs)[-n:]
+    if n == 0:
+        return []
+    else: 
+        return sorted(xs)[-n:]
