@@ -3,3 +3,8 @@ def get_missing_element(seq):
     for num in proper_list:
         if num not in seq:
             return num
+        
+
+#def get_missing_element(seq):
+#    return 45 - sum(seq)
+#Math makes this a silly problem to solve.
