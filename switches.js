@@ -35,3 +35,4 @@ function howManydays(month){
 //    }
 //    return 31
 //}
+// fall through in javascript switch
