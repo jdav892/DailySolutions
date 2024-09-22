@@ -2,5 +2,5 @@ class Solution:
     def __init__(self):
         pass
     
-    def main(self):
+    def main(*args):
         print("Hello World!")
