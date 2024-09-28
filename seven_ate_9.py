@@ -7,4 +7,8 @@ def seven_ate_9(str_):
             del num_str[num + 1]
         else:
             num += 1
-    return ''.join(num_str) 
+    return ''.join(num_str)
+
+#while "797" in str:
+#   str_ = str_.replace("797", "77")
+#return str_
