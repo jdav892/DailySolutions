@@ -4,3 +4,6 @@ def number_of_occurrences(element, sample):
         if el == element:
             count += 1
     return count
+
+
+#return sample.count(element)
