@@ -5,3 +5,5 @@ function typeValidation(variable, type){
         return false
     }
 }
+
+// const typeValidation = (variable, type) => return typeof variable == type
