@@ -8,3 +8,5 @@ function args_count(){
     }return count
 }
 
+
+//const args_count = (...args) => args.length
