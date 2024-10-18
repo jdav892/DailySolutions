@@ -7,7 +7,3 @@ function queueTime(customers, n){
     }
     return Math.max(...tills)
 }
-
-
-
-console.log(queueTime([2, 3, 10, 2, 17, 2, 5], 3))
