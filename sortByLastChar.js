@@ -6,5 +6,3 @@ function last(x){
     splitWords.sort(sortMethod)
     return splitWords
 }
-
-console.log(last('man i need a taxi up to ubud'))
