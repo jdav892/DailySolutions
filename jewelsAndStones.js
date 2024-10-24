@@ -12,3 +12,5 @@ var numJewelsInStones = function(jewels, stones){
     }
     return count
 }
+//O(n)
+//O(n)
