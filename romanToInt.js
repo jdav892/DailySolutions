@@ -15,7 +15,7 @@ var romanToInt = function(s) {
 
     let result = 0
     for(let i = 0; i < s.length; i++){
-        if(i + 1 > s.length && romansMap[s[i]] < romansMap[s[i + 1]]){
+        if(i + 1 < s.length && romansMap[s[i]] < romansMap[s[i + 1]]){
             result -= romansMap[s[i]];
         }else{
             result += romansMap[s[i]];
