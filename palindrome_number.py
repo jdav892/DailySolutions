@@ -7,3 +7,5 @@ class Solution(object):
         str_num = str(x)
         
         return str_num == str_num[::-1]
+    
+#O(n)
