@@ -11,15 +11,14 @@ class Solution(object):
             "]" : "["
         }
         
-        openingBrackets = ['(', '{', '[']
-        closingBrackets = [')', '}', ']']
-        
-        for char in s:
-            if char in openingBrackets:
-                stack.append(char)
-            elif char in closingBrackets:
-                if len(stack) == 0 or stack.pop() != braceMap[char]:
+        for c in s:
+            if c in braceMap:
+                if stack and stack[-1] == braceMap[c]:
+                    stack.pop()
+                else:
                     return False
-        return len(stack) == 0
+            else:
+                stack.append(c)
+        return True if not stack else False
     
 #O(n)
