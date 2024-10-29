@@ -1,4 +1,10 @@
+//function findUniq(arr){
+//    let sortedArr = arr.sort((a, b) => a - b);
+//    return sortedArr[0] === sortedArr[1] ? sortedArr.pop():sortedArr[0]
+//}
+
+
 function findUniq(arr){
-    let sortedArr = arr.sort((a, b) => a - b);
-    return sortedArr[0] === sortedArr[1] ? sortedArr.pop():sortedArr[0]
+    return arr.find(n => arr.findIndexOf(n) === arr.lastIndexOf(n));
 }
+//O(n) run time which is more efficient than iterating through the entire array with sort
