@@ -1,6 +1,6 @@
 def wave(people):
     if people == "":
-        return ""
+        return [] 
     else:
         people = people.lower()
         waves = []
