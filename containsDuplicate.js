@@ -16,4 +16,8 @@ var containsDuplicate = function(nums) {
 
 };
 
+//const containsDupe = (nums) =>{
+//  return new Set(nums).size !== nums.length; 
+//}
+
 //O(n)
