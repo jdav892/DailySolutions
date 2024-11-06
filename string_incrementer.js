@@ -7,3 +7,5 @@ function incrementString(strng){
     ? newStr +(+end + 1)
     : incrementString(newStr) + "0";
 }
+
+//return strng.replace(/([0-8]|\d?9+)?$/, (e) => (e ? +e + 1: 1));
