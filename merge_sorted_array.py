@@ -18,7 +18,7 @@ class Solution:
         #fill nums1 with leftover elements of nums2
         
         while n > 0:
-            nums1[end] = nums2[n]
+            nums1[end] = nums2[n - 1]
             n, end = n - 1, end - 1    
                 
         
