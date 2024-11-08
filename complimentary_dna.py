@@ -20,3 +20,8 @@ def new_dna(strand):
     }
     
     return ''.join([ref[l] for l in strand])
+
+import string
+
+def string_dna(str):
+    return str.translate(string.maketrans("ATCG", "TAGC"))
