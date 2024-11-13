@@ -6,3 +6,4 @@ def arr_check(arr):
     return result
 
 
+#return all(isinstance(el, list) for el in arr)
