@@ -7,3 +7,5 @@ function swap(string){
     }
     return strArr.join("")
 }
+
+//return string.replace(/[aeoiu]/g, value => value.toUpperCase());
