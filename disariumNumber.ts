@@ -7,3 +7,5 @@ export function disariumNumber(n: number){
     }
     return result === n ? "Disarium !!" : "Not !!"
 }
+
+//return String(n).split("").reduce((sum, x, i) => sum + parseInt(x) ** (i + ), 0) === n ? "Disarium !!" : "Not !!"
