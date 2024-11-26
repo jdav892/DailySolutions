@@ -1,2 +1,2 @@
-Solutions to Codewars/LeetCode problems 
-*Moved from another repo of mine for organizational purposes*
+My solutions to Code Wars/LeetCode problems 
+*Migrated from an old repository and expanded upon daily
