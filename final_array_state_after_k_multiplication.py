@@ -1,6 +1,6 @@
 class Solution:
     def getFinalState(self, nums: List[int], k: int, multiplier: int) -> List[int]:
-        result = [::]
+        result = nums[::]
         
         min_heap = [(n , i) for i, n in enumerate(nums)]
         heapq.heapify(min_heap)
