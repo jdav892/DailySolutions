@@ -11,3 +11,5 @@ class Solution:
             stack.append(i)
         
         return result
+    
+    #Time: O(n) Space: O(n)
