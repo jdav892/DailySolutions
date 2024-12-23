@@ -8,3 +8,5 @@ export function golfScoreCalculator(parList: string, scoreList: string): number 
     }
     return score 
 }
+
+//return scoreList.split("").reduce((sum, val, index) => sum + +val - +parList[i], 0)
