@@ -1,11 +1,13 @@
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
-        def backtrack(i, current_sum):
-            if i == nums:
-                return 1 if current_sum == target else 0
-            
-            return (
-                backtrack(i + 1, current_sum + nums[i])+
-                backtrack(i + 1, current_sum - nums[i])
-            )
-        return backtrack(0, 0)
+        dp = defaultdict(int)
+        
+        dp[0] = 1
+        
+        for i in range(len(nums)):
+            next_dp = defaultdict(int)
+            for current_sum, count in dp.items():
+                next_dp[current_sum + nums[i]] += count
+                next_dp[current_sum - nums[i]] += count
+            dp = next_dp
+        return dp[target]
