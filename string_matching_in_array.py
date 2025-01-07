@@ -18,6 +18,7 @@ class Solution:
     #        
     #        if word[i] in word[j]:
     #            matches.append(word[i])
+    #            break
     #            
     #return matches
             
