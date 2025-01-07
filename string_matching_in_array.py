@@ -8,3 +8,17 @@ class Solution:
             if newStr.count(word) > 1:
                 matches.append(word)
         return matches
+    
+    
+    
+    #for i in range(len(words)):
+    #    for j in range(len(words)):
+    #        if i == j:
+    #            continue
+    #        
+    #        if word[i] in word[j]:
+    #            matches.append(word[i])
+    #            
+    #return matches
+            
+        
