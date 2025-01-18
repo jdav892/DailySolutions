@@ -7,4 +7,4 @@ class Solution:
             if n:
                 last = ~last
                 
-        return first == last
+        return first == last    
