@@ -21,3 +21,11 @@ function dataReverse(data) {
     return newStore
     
   }
+
+const realReverse = (data2) => {
+    const bytes = [];
+    for(let i = 0; i < data2.length; i += 8){
+        bytes.unshift(...data2.slice(i, i + 8));
+    }
+    return bytes;
+}
