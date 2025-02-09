@@ -9,7 +9,7 @@ function countBadPairs(nums: number[]): number {
             count[key] = 0
         }
         good += count[key]
-        count[key] = 1;
+        count[key] += 1;
     }
     return total * (total - 1)/2 - good;
 }
