@@ -1,3 +1,3 @@
-function none(arr, fun){
+const none = (arr, fun) => {
     return !arr.some(fun)
 }
