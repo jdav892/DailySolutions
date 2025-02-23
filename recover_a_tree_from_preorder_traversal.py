@@ -17,6 +17,9 @@ class Solution:
                 val = int(traversal[i:j])
                 node = TreeNode(val)
                 
+                while len(stack) > dashes:
+                    stack.pop()
+                
                 if stack and not stack[-1].left:
                     stack[-1].left = node
                 elif stack:
