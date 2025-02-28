@@ -18,3 +18,4 @@ function numOfSubArrays(arr: number[]): number{
     }
     return result
 }
+
