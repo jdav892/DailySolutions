@@ -13,3 +13,5 @@ class Solution:
         result = values + zeroes 
         return result
     
+    #Time: O(n), Space: O(n)
+    
