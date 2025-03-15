@@ -22,3 +22,5 @@ class Solution:
             else:
                 r = m - 1
         return result
+    
+    #O(1), O(n)
