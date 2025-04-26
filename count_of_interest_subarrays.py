@@ -6,7 +6,6 @@ class Solution:
         prev[0] = 1
         total = 0
         current = 0
-        degree = 1
         
         for i in range(N):
             if nums[i] % modulo == k:
