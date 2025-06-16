@@ -13,3 +13,5 @@ class Solution:
             return -1
         else:
             return diff
+        
+        #return max(map(sub, nums, accumulate(nums, min))) or -1
