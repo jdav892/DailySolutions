@@ -7,6 +7,3 @@ class Solution:
         if len(result[-1]) < k:
                 result[-1] += fill * (k - len(result[-1])) 
         return result 
-    
-    
- 
