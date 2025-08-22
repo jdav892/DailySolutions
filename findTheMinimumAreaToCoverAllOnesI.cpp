@@ -16,6 +16,6 @@ class Solution {
                     }
                 }
             }
-            return (mxr - mnr + 1) * (mxc - mnc + 1)
+            return (mxr - mnr + 1) * (mxc - mnc + 1);
         }
 }
