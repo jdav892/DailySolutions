@@ -8,7 +8,7 @@ class Solution {
 
             for(int i = 0; i < rows; ++i){
                 for(int j = 0; j < cols; ++j){
-                    if(grid[i][j] == 0){
+                    if(grid[i][j] == 1){
                         mxr = max(mxr, i);
                         mxc = max(mxc, j);
                         mnr = min(mnr, i);
@@ -18,4 +18,4 @@ class Solution {
             }
             return (mxr - mnr + 1) * (mxc - mnc + 1);
         }
-}
+};
