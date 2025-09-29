@@ -5,5 +5,6 @@ class Solution:
         for c, b, a in zip(nums, nums[1:], nums[2:]):
             if a + b > c:
                 return a + b + c
+            
         else:
             return 0
