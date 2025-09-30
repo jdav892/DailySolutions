@@ -1,10 +1,10 @@
 class Solution:
     def triangularSum(self, nums: List[int]) -> int:
-        current = nums[:]
+        result = nums[:]
         
-        while len(current) > 1:
-            nxt = []
+        while len(result) > 1:
+            new = []
             for x, y in zip(current, current[1:]):
-                nxt.append((x + y) % 10)
-            current = nxt
+                new.append((x + y) % 10)
+            current = new
         return current[0]
